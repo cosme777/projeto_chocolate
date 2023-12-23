@@ -112,4 +112,31 @@ img {
   background-color: rgb(102, 53, 19);
 }
 
+@media (max-width:450px) {
 
+  header{font-size: 20px;}
+  .logo{display: none;}
+
+  img {
+    width: 50px;
+  }
+
+  h1{font-size:25px;}
+
+  .chocolate{
+    margin-top: 30px;
+    width: 300px;
+  }
+
+  .divi {
+    width: 15vw;
+    height: 8vh;
+    border: 10px outset rgb(170, 95, 42);
+    background-color: rgb(102, 53, 19);
+  }
+
+
+
+
+
+}
