@@ -1,0 +1,115 @@
+:root {
+  --cinza_claro: #666;
+  --outra_cor: #ff00ff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwsMLtKSAF6NemPGdT1g-pYqLgmRRh6AV88A&usqp=CAU);
+  background-size: cover;
+  background-position-y: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  height: 70px;
+  background-color: #988c8f;
+  font-size: 1.5em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 50px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.menu {
+  width: 100%;
+  height: auto;
+}
+
+.logo img {
+  height: 50px;
+}
+
+ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  gap: 80px;
+  color: #504b50;
+  cursor: pointer;
+  margin-right: 50px;
+  height: 65px;
+}
+
+li {
+  width: 100px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 100%;
+}
+
+ul li:hover {
+  background-color: aliceblue;
+  transition-duration: 0.2s;
+  border: 1px solid currentColor;
+}
+
+h1::before,
+h1::after {
+  content: " * ";
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+p::before {
+  content: "😉";
+}
+
+.marquee_divi {
+  margin: auto;
+  width: 50%;
+}
+
+img {
+  width: 100px;
+  margin-top: 35px;
+}
+
+.chocolate {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  padding: 5px;
+}
+
+.divi {
+  width: 6vw;
+  height: 11vh;
+  border: 10px outset rgb(170, 95, 42);
+  background-color: rgb(102, 53, 19);
+}
+
+
