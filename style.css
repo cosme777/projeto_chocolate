@@ -113,6 +113,8 @@ img {
 }
 
 @media (min-width: 300px) and (max-width: 900px) {
+
+  body{widh: 110%}
   header {
     font-size: 20px;
   }
